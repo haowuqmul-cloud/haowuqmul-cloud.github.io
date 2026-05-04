@@ -6,19 +6,19 @@ baseurl: ""
 
 remote_theme: alshedivat/al-folio
 
-# 作者信息
 author:
   name: "Hao Wu"
-  avatar: "/assets/img/avatar.jpg"      # 注意：al-folio 默认用 img 文件夹
+  avatar: "/assets/img/avatar.jpg"
   bio: "PhD Candidate in Finance at Queen Mary University of London"
   location: "London, UK"
   email: "hao.wu@qmul.ac.uk"
 
-# 基础功能开启
+# 基础设置
 navbar_fixed: true
-footer_fixed: true
 enable_darkmode: true
 enable_math: true
-enable_publication_badges: false        # 先关闭，避免报错
 
-
+# 临时关闭可能引起问题的功能
+enable_publication_badges: false
+scholar:
+  enabled: false
