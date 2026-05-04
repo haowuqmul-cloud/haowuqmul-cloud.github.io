@@ -21,9 +21,4 @@ enable_darkmode: true
 enable_math: true
 enable_publication_badges: false        # 先关闭，避免报错
 
-# 论文设置（如果没有 bib 文件，先关闭或保持默认）
-scholar:
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
+
